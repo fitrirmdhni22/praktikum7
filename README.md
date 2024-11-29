@@ -8,6 +8,7 @@
 Program ini adalah aplikasi sederhana yang memungkinkan pengguna untuk mengelola data mahasiswa, termasuk menambah, mengubah, menghapus, dan menampilkan nilai mahasiswa. Program ini menggunakan sebuah dictionary untuk menyimpan nama mahasiswa sebagai key dan nilai mereka sebagai value. Menu interaktif memudahkan pengguna untuk memilih tindakan yang ingin dilakukan terhadap data mahasiswa.
 
 # FLOWCHART PROGRAM
+![Flowchart](https://github.com/fitrirmdhni22/praktikum7/blob/main/flowchartnilaimahasiswa.png?raw=true)
 
 # KODE PROGRAM
 ```python
@@ -114,3 +115,32 @@ Pilih menu (1/2/3/4/5): 5
 Keluar dari program.
 PS C:\Users\AXIOO\Documents\KULIAH\pratikum 7 pemro>
 ```
+
+# CARA KERJA PROGRAM
+program python ini menampilkan menu interaktif yang memungkinkan pengguna untuk memilih salah satu dari lima opsi:
+     - *Tambah Data*: Menambah data mahasiswa baru ke dalam dictionary.
+     - *Tampilkan Data*: Menampilkan seluruh daftar mahasiswa beserta nilai mereka.
+     - *Hapus Data*: Menghapus data mahasiswa berdasarkan nama.
+     - *Ubah Data*: Mengubah nilai mahasiswa berdasarkan nama.
+     - *Keluar*: Keluar dari program.
+     
+*Fungsi-fungsi Utama*:
+   - *tambah(nama, nilai)*: Fungsi ini digunakan untuk menambah data mahasiswa ke dalam dictionary. Nama mahasiswa menjadi key, dan nilai mahasiswa menjadi value.
+   - *tampilkan()*: Fungsi ini menampilkan seluruh data mahasiswa dalam dictionary. Jika dictionary kosong, program akan memberi pesan bahwa tidak ada data mahasiswa.
+   - *hapus(nama)*: Fungsi ini menghapus data mahasiswa berdasarkan nama yang diberikan. Jika nama ditemukan, data akan dihapus; jika tidak, program memberi pesan bahwa nama tersebut tidak ditemukan.
+   - *ubah(nama, nilai_baru)*: Fungsi ini mengubah nilai mahasiswa berdasarkan nama. Jika nama ditemukan, nilai mahasiswa akan diperbarui dengan nilai baru yang diberikan.
+
+4. *Proses Pengguna*:
+   - Pengguna akan dipandu melalui menu untuk memilih tindakan yang ingin dilakukan.
+   - Setelah memilih tindakan, pengguna akan diminta untuk memasukkan data yang diperlukan (nama mahasiswa dan nilai).
+   - Setelah selesai dengan tindakan yang dipilih, program akan kembali menampilkan menu utama.
+   - Program akan terus berjalan hingga pengguna memilih opsi "Keluar" untuk keluar dari aplikasi.
+
+# Alur Program:
+1. *Menampilkan Menu*: Pengguna memilih menu.
+2. *Pilihan Menu*: 
+   - Untuk pilihan *Tambah Data*, program meminta nama dan nilai mahasiswa untuk ditambahkan ke dictionary.
+   - Untuk pilihan *Tampilkan Data*, program memeriksa apakah ada data mahasiswa dan menampilkannya.
+   - Untuk pilihan *Hapus Data*, program meminta nama mahasiswa yang ingin dihapus dari dictionary.
+   - Untuk pilihan *Ubah Data*, program meminta nama mahasiswa yang ingin diubah nilainya.
+3. *Pengulangan*: Program kembali ke menu utama setelah setiap tindakan kecuali jika pengguna memilih opsi "Keluar".
