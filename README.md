@@ -80,7 +80,7 @@ menu()
 
 ```
 # OUTPUT PROGRAM
-```
+```python
 PS C:\Users\AXIOO\Documents\KULIAH\pratikum 7 pemro> python -u "c:\Users\AXIOO\Documents\KULIAH\pratikum 7 pemro\lab7.py"
 
 Menu:
@@ -101,9 +101,20 @@ Menu:
 4. Ubah Data
 5. Keluar
 Pilih menu (1/2/3/4/5): 1
-Masukkan nama mahasiswa: bong     
-Masukkan nilai mahasiswa: 98
-Data mahasiswa bong dengan nilai 98 telah ditambahkan.
+Masukkan nama mahasiswa: bong
+Masukkan nilai mahasiswa: 99
+Data mahasiswa bong dengan nilai 99 telah ditambahkan.
+
+Menu:
+1. Tambah Data
+2. Tampilkan Data
+3. Hapus Data
+4. Ubah Data
+5. Keluar
+Pilih menu (1/2/3/4/5): 2
+Daftar Mahasiswa dan Nilai:
+Nama: pitriw, Nilai: 100
+Nama: bong, Nilai: 99
 
 Menu:
 1. Tambah Data
