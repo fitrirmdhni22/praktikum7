@@ -79,3 +79,38 @@ menu()
 
 ```
 # OUTPUT PROGRAM
+```
+PS C:\Users\AXIOO\Documents\KULIAH\pratikum 7 pemro> python -u "c:\Users\AXIOO\Documents\KULIAH\pratikum 7 pemro\lab7.py"
+
+Menu:
+1. Tambah Data
+2. Tampilkan Data
+3. Hapus Data
+4. Ubah Data
+5. Keluar
+Pilih menu (1/2/3/4/5): 1
+Masukkan nama mahasiswa: pitriw
+Masukkan nilai mahasiswa: 100
+Data mahasiswa pitriw dengan nilai 100 telah ditambahkan.
+
+Menu:
+1. Tambah Data
+2. Tampilkan Data
+3. Hapus Data
+4. Ubah Data
+5. Keluar
+Pilih menu (1/2/3/4/5): 1
+Masukkan nama mahasiswa: bong     
+Masukkan nilai mahasiswa: 98
+Data mahasiswa bong dengan nilai 98 telah ditambahkan.
+
+Menu:
+1. Tambah Data
+2. Tampilkan Data
+3. Hapus Data
+4. Ubah Data
+5. Keluar
+Pilih menu (1/2/3/4/5): 5
+Keluar dari program.
+PS C:\Users\AXIOO\Documents\KULIAH\pratikum 7 pemro>
+```
